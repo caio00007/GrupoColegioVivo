@@ -1,0 +1,105 @@
+/* Estilo básico da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho principal */
+header {
+    background-color: #00796b;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* Navegação */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #004d40;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #00796b;
+    color: white;
+}
+
+/* Conteúdo principal */
+.content {
+    padding: 20px;
+}
+
+/* Título das seções */
+.section-title {
+    color: #00796b;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #004d40;
+    padding-bottom: 5px;
+}
+
+/* Tabelas para exibir dados */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #00796b;
+    color: white;
+}
+
+/* Espaço para imagens */
+.image-placeholder {
+    width: 100%;
+    height: 250px;
+    background-color: #b2dfdb;
+    text-align: center;
+    line-height: 250px;
+    color: #333;
+    margin: 15px 0;
+    border: 2px dashed #004d40;
+}
+
+/* Estilo para o chat */
+#doubts-chat-container,
+#discussions-chat-container {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    background-color: #fafafa;
+    padding: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+#doubts-messages, 
+#discussions-messages {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 5px;
+    background-color: #ffffff;
+}
